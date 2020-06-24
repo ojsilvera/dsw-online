@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Nova Square', cursive;
 }
@@ -16,6 +21,7 @@ h1 {
   font-size: 200%;
   /*espacio de las letras*/
   letter-spacing: -1px;
+  /* color del texto */
   color: white;
 }
 
@@ -24,7 +30,7 @@ h1 strong {
 }
 
 .header {
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(20, 20, 20);
   color: white;
 }
 
@@ -36,16 +42,27 @@ h1 strong {
 .banner {
   height: 380px;
   background-image: url(../img/fondo_1.png);
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(17, 17, 17);
   background-size: 680px 380px;
   background-repeat: no-repeat;
   background-position-x: right;
 }
 
-.formations {
+.formations,
+.ability .abilities-hard,
+.abilities-soft {
   width: 500px;
+  border-style: solid;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
 }
 
 .ability {
   width: 500px;
+}
+
+.ability .abilities-hard {
+  margin-bottom: 10px;
 }
