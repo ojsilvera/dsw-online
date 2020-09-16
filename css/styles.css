@@ -2,11 +2,9 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: border-box;
 }
 
 body {
-  background-color: white;
   color: black;
   -webkit-font-smoothing: antialiased;
 }
@@ -21,44 +19,116 @@ button {
 button {
   cursor: pointer;
 }
+
+/* --------------------------------------------------------------------------- */
+
 /* body */
+
 body {
-  height: 1000px;
+  background-color: #026FFF;
+  height: 4000px;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
 }
-/* navigation */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One";
+}
+
+/* navbar----------------------------------------------------- */
+
 .navigation {
-  border: solid;
-  border-color: black;
+  background-color: #1D252C;
+  height: 5rem;
+  color: white;
   display: flex;
   justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0px 5px 4px 0px black;;
+
 }
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 nav ul li {
   display: inline;
+}
+
+nav ul li a {
   text-decoration: none;
+  color: white;
+  margin: 0px 8px;
 }
-/* about */
+
+/* about----------------------------------------------------- */
+
 .about {
-  border: solid;
-  border-color: blue;
+  background-color: #1D252C;
+  color: white;
+  height: 22rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
 }
-/* projects */
+
+
+.about .presentation p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  font-family: "Fjalla One";
+}
+
+.about .owner img {
+  height: 22rem;
+  width: 19rem;
+}
+
+.about .presentation p strong {
+  color: #0005FF;
+  font-weight: bold;
+}
+
+/* projects----------------------------------------------------- */
+
 .projects {
-  border: solid;
-  border-color: black;
+  background-color: white;
+}
+
+.projects .project-one {
   display: flex;
   justify-content: space-between;
+  border-color: black;
+  border: solid;
 }
-/* education */
-.education {
+
+.projects .project-two {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-color: green;
 }
-/*work experience */
-.jobs {
+
+.projects .project-one .picture-project1 img,
+.projects .project-two .picture-project2 img {
+  height: 15rem;
+  width: 15rem;
 }
-/* footer - contact*/
+
+/* footer - contact-----------------------------------------------------*/
+
 footer {
+  background-color: white;
   border: solid;
   border-color: black;
   display: flex;
