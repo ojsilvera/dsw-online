@@ -4,57 +4,46 @@
   outline: 0;
 }
 
-body {
-  color: black;
-  -webkit-font-smoothing: antialiased;
-}
-
-body,
-input,
-button {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-button {
-  cursor: pointer;
-}
-
-/* --------------------------------------------------------------------------- */
-
-/* body */
+/* body------------------------------------------------------------------------ */
 
 body {
-  background-color: #026FFF;
-  height: 4000px;
+  background-color: #026fff;
   font-size: 20px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Montserrat;
+  height: 6000px;
 }
 
-h1,
+h1 {
+  color: #0005ff;
+  font-family: Montserrat;
+  margin: 0 0 40px 40px;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Fjalla One";
+  color: #0005ff;
+  font-family: Montserrat;
 }
 
 /* navbar----------------------------------------------------- */
 
 .navigation {
-  background-color: #1D252C;
+  background-color: #1d252c;
   height: 5rem;
   color: white;
   display: flex;
   justify-content: space-between;
   font-size: 1.5rem;
   padding: 1rem;
-  box-shadow: 0px 5px 4px 0px black;;
-
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,50 +62,63 @@ nav ul li a {
 /* about----------------------------------------------------- */
 
 .about {
-  background-color: #1D252C;
+  background-color: #1d252c;
   color: white;
-  height: 22rem;
+  height: 600px;
   display: flex;
   justify-content: space-between;
+  padding: 0 3rem;
 }
-
 
 .about .presentation p {
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.5em;
-  letter-spacing: 0.1em;
-  font-family: "Fjalla One";
-}
-
-.about .owner img {
-  height: 22rem;
-  width: 19rem;
+  font-size: 3.563rem;
+  line-height: 1em;
 }
 
 .about .presentation p strong {
-  color: #0005FF;
-  font-weight: bold;
+  font-weight: 900;
+  color: #0005ff;
+}
+
+.about .owner img {
+  height: 595px;
+  width: 750px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* projects----------------------------------------------------- */
 
 .projects {
   background-color: white;
+  margin-left: 40px;
+  padding: 40px 0 0 0;
 }
 
 .projects .project-one {
   display: flex;
   justify-content: space-between;
-  border-color: black;
+  margin: 0 94px;
+  border-color: rgb(102, 102, 102);
   border: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 40px;
 }
 
 .projects .project-two {
   display: flex;
   justify-content: space-between;
+  margin: 20px 94px;
   border: solid;
-  border-color: green;
+  border-color: rgb(110, 110, 110);
+  border-width: 0.5px;
+  border-radius: 10px;
+  padding: 40px;
 }
 
 .projects .project-one .picture-project1 img,
@@ -125,8 +127,224 @@ nav ul li a {
   width: 15rem;
 }
 
-/* footer - contact-----------------------------------------------------*/
+/* habilidades----------------------------------------------------------*/
+.projects .abilities {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 94px;
+  padding-bottom: 40px;
+}
 
+.projects .abilities .hardAbilities {
+  display: flex;
+  flex-direction: column;
+  height: 732px;
+  width: 641px;
+  border: solid;
+  border-radius: 10px;
+  padding: 40px;
+  border-width: 0.5px;
+}
+
+.projects .abilities .softAbilities {
+  display: flex;
+  flex-direction: column;
+  height: 732px;
+  width: 641px;
+  border: solid;
+  border-radius: 10px;
+  border-width: 0.5px;
+  padding: 40px;
+}
+
+.projects .abilities .softAbilities .hab_1 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0px 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_2 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 150px 10px 320px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_3 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_4 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 400px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_5 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 430px 10px 0;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_6 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_7 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_8 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_9 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .softAbilities .hab_10 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 430px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_1 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_2 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_3 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_4 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_5 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_6 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_7 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 0 10px 330px;
+  text-align: center;
+}
+
+/* footer - contact-----------------------------------------------------*/
 footer {
   background-color: white;
   border: solid;
