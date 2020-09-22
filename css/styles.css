@@ -10,7 +10,7 @@ body {
   background-color: #026fff;
   font-size: 20px;
   font-family: Montserrat;
-  height: 6000px;
+  height: 2000px;
 }
 
 h1 {
@@ -71,8 +71,8 @@ nav ul li a {
 }
 
 .about .presentation p {
-  font-size: 3.563rem;
-  line-height: 1em;
+  font-size: 40px;
+  line-height: 47px;
 }
 
 .about .presentation p strong {
@@ -128,6 +128,7 @@ nav ul li a {
 }
 
 /* habilidades----------------------------------------------------------*/
+
 .projects .abilities {
   display: flex;
   justify-content: space-between;
@@ -139,7 +140,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   height: 732px;
-  width: 641px;
+  width: 541px;
   border: solid;
   border-radius: 10px;
   padding: 40px;
@@ -150,12 +151,14 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   height: 732px;
-  width: 641px;
+  width: 541px;
   border: solid;
   border-radius: 10px;
   border-width: 0.5px;
   padding: 40px;
 }
+
+/* habilidades blandas---------------------------------------------------*/
 
 .projects .abilities .softAbilities .hab_1 {
   background-color: blue;
@@ -164,7 +167,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0px 10px 430px;
+  margin: 40px 230px 10px 0px;
   text-align: center;
 }
 
@@ -175,7 +178,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 150px 10px 320px;
+  margin: 20px 70px 10px 170px;
   text-align: center;
 }
 
@@ -186,7 +189,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 430px;
+  margin: 20px 220px 10px 20px;
   text-align: center;
 }
 
@@ -197,7 +200,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 400px;
+  margin: 20px 50px 10px 150px;
   text-align: center;
 }
 
@@ -208,7 +211,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 430px 10px 0;
+  margin: 20px 230px 10px 0;
   text-align: center;
 }
 
@@ -219,7 +222,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 430px;
+  margin: 20px 80px 10px 170px;
   text-align: center;
 }
 
@@ -230,7 +233,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 430px;
+  margin: 20px 250px 10px 0px;
   text-align: center;
 }
 
@@ -241,7 +244,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 430px;
+  margin: 20px 0px 10px 250px;
   text-align: center;
 }
 
@@ -251,8 +254,8 @@ nav ul li a {
   border: solid;
   border-radius: 20px;
   border-width: 0.5px;
-  padding: 5px;
-  margin: 20px 0 10px 430px;
+  padding: 5px 25px 5px 25px;
+  margin: 20px 250px 10px 20px;
   text-align: center;
 }
 
@@ -263,9 +266,11 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 430px;
+  margin: 20px 0 10px 200px;
   text-align: center;
 }
+
+/* habilidades duras---------------------------------------------------*/
 
 .projects .abilities .hardAbilities .abi_1 {
   background-color: blue;
@@ -274,7 +279,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 40px 230px 10px 0px;
   text-align: center;
 }
 
@@ -285,7 +290,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 70px 10px 170px;
   text-align: center;
 }
 
@@ -296,7 +301,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 220px 10px 20px;
   text-align: center;
 }
 
@@ -307,7 +312,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 50px 10px 150px;
   text-align: center;
 }
 
@@ -318,7 +323,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 200px 10px 30px;
   text-align: center;
 }
 
@@ -329,7 +334,7 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 0px 10px 230px;
   text-align: center;
 }
 
@@ -340,15 +345,104 @@ nav ul li a {
   border-radius: 20px;
   border-width: 0.5px;
   padding: 5px;
-  margin: 20px 0 10px 330px;
+  margin: 20px 200px 10px 30px;
   text-align: center;
 }
 
-/* footer - contact-----------------------------------------------------*/
+.projects .abilities .hardAbilities .abi_8 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 30px 10px 200px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_9 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 200px 10px 30px;
+  text-align: center;
+}
+
+.projects .abilities .hardAbilities .abi_10 {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  border-width: 0.5px;
+  padding: 5px;
+  margin: 20px 30px 10px 200px;
+  text-align: center;
+}
+
+/* contact-------------------------------------------------------------*/
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form h2 {
+  color: white;
+}
+
+.contact form input {
+  color: gray;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 10px;
+  width: 648px;
+  height: 34px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact form button {
+  color: white;
+  border-color: white;
+  border: solid;
+  background-color: #026fff;
+  border-radius: 3px;
+  border-width: 0.5px;
+  width: 185px;
+  height: 34px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.contact .social_media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .social_media img {
+  filter: invert(1);
+  width: 120px;
+  height: 120px;
+  margin: 0 50px 0 80px;
+}
+
+/* footer--------------------------------------------------------------*/
 footer {
-  background-color: white;
+  background-color: black;
+  color: white;
   border: solid;
   border-color: black;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
